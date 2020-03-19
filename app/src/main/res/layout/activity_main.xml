@@ -8,17 +8,22 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-        <fragment
-            android:id="@+id/chickenStoreFrag"
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/mainViewPager"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            class="com.example.a20200319_02_fragment02.fragments.ChickenStoreFragment"/>
+            android:layout_height="match_parent"/>
 
-        <fragment
-            android:id="@+id/roomListFrag"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            class="com.example.a20200319_02_fragment02.fragments.RoomListFragment"/>
+<!--        <fragment-->
+<!--            android:id="@+id/chickenStoreFrag"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            class="com.example.a20200319_02_fragment02.fragments.ChickenStoreFragment"/>-->
+
+<!--        <fragment-->
+<!--            android:id="@+id/roomListFrag"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            class="com.example.a20200319_02_fragment02.fragments.RoomListFragment"/>-->
 
     </LinearLayout>
 </layout>
