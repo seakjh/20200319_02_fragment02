@@ -69,7 +69,7 @@ public class RoomAdapter extends ArrayAdapter<Room> {
 //
 
         addressTxt.setText(room.getAddress());
-        priceTxt.setText(String.format("%.d만원", room.getPrice()));
+        priceTxt.setText(String.format("%,d만원", room.getPrice()));
 
 //        반영이 끝난  row를 화면에 뿌리도록 결과로 지적
         return row; // row변수에 담긴 xml을 화면에 뿌려라
